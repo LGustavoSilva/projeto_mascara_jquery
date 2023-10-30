@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html {
+    overflow-y: hidden;
+}
+
+.container,
+h1 {
+    max-width: 400px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+h1 {
+    background-color: #228b22;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    font-size: 14px;
+}
+
+.campos label {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.campos input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #228b22;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
